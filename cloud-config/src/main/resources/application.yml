@@ -1,13 +1,8 @@
 spring:
   application:
     name: xiwen-config
-
 server:
   port: 8788
-
-
-
-
 eureka:
   instance:
     hostname: localhost
