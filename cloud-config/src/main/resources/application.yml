@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: xiwen-config
+
+server:
+  port: 8788
+
+
+
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    healthcheck:
+      enabled: true
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://xiwen:xiwen@localhost:8789/eureka/
